@@ -13,11 +13,16 @@ h1 {
 img {
 	margin: 40px 0px 0px 0px;
 	border: 7px solid white;
-	border radius: 20px;
+	border-radius: 20px;
+	position: absolute;
+    top: 0;
+    right: 7px;
 }
 ul {
   padding: 10px;
   background: yellow;
+  margin: 0;
+
 }
 li {
 	display: inline;
@@ -38,6 +43,7 @@ position: relative;
 .left {
 	width:200px;
 	position: absolute;
+	left: 30px;
 
 }
 .me {
@@ -47,8 +53,12 @@ position: relative;
 .top-half {
 	margin-bottom: 75px;
 	border-bottom: 2px solid yellow;
-	height: 300px;
 	background: #90C3D4;
+	display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+
+}		
 }
 .top-half h1{
 	padding: 0;
@@ -71,21 +81,17 @@ position: relative;
 <h1> Yesenia Gonzales </h1>
 <p>Hi! I'm Yesi, a Project Manager in corporate America.</p>
 </br>
-
+<p>I love traveling and taking photos, this photo was taken on my birthday helicopter ride in Reykavik,Iceland.
+</p>
 <ul>
-<li><a href="#">About Me</a></li>
-<li><a href="#">Travels</a></li>
-<li><a href="#">Designs</a></li>
+<li><a href="https://yeseniagonzales.wordpress.com">About Me</a></li>
+<li><a href="http://i.imgur.com/X2bVhFF.jpg">Travels</a></li>
+<li><a href="http://cleomuki.com">Designs</a></li>
 </ul>
+<a href="https://www.linkedin.com/in/yesenia-gonzales-0a267aa9"><img src="http://i.imgur.com/yenRJa1.png" title="source: imgur.com" /></a>
 
 </article>
 
 <article class="bottom-half">
 </br>
-<li> Hobbies</li>
-<p>I love traveling and taking photos, this photo was taken on my birthday helicopter ride in Reykavik,Iceland.
-</p>
-<li> Books</li>
-<p>Currently reading Michio Kaku, The Future of The Mind.
-</p>
 </article>
